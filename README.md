@@ -7,19 +7,19 @@ You can save or load your trained network.
 
 
 Activation Functions:
-    Sigmoid
-    ReLu
-    Softmax
+Sigmoid
+ReLu
+Softmax
 
 Regularization:
-    L2
-    Dropout (You can individually drop hidden layers)
+L2
+Dropout (You can individually drop hidden layers)
 
 Optimizers:
-    RMS
-    Adam
+RMS
+Adam
 
 Weight initilazition (Kernel Initializer):
-    He
-    Xavier
-    (You can choose kernel for individual layers)
+He
+Xavier
+(You can choose kernel for individual layers)

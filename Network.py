@@ -38,13 +38,17 @@ class network():
             return exponent / means * ((1 - np.identity(len(x))) @ exponent)
         return softmax
 
-    def add_layer(self, node_count, activation, input_len=0, he=1):
+    def add_layer(self, node_count, activation, input_len=0, kernel_initializer=None):
         if input_len:
             self.previous_node_count = input_len
         # Assigning weights using standart distirbution
-        # also using the He Initialization (math.sqrt(2./len(self.weights)-1)) term.
-        if he: layer = np.random.randn(node_count, self.previous_node_count) * np.sqrt(2. / self.previous_node_count)
-        else: layer = np.random.randn(node_count, self.previous_node_count)
+        layer = np.random.randn(node_count, self.previous_node_count)
+        # If we want He Initialization multiplying by math.sqrt(2./len(self.weights)-1) term.
+        if kernel_initializer == "He":
+            layer *= np.sqrt(2. / self.previous_node_count)
+        # If we want He Initialization multiplying by math.sqrt(1./len(self.weights)-1) term.
+        elif kernel_initializer == "Xavier":
+            layer *= np.sqrt(1. / self.previous_node_count)
         self.weights.append(layer)
         # All biases 0.
         self.biases.append(np.zeros((layer.shape[0], 1)))
