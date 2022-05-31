@@ -1,25 +1,25 @@
 # Neural-Network-Implementation
  This is my implementation of neural network.
 
-Features
-You can easyly add layers to network.
-You can save or load your trained network.
+Features<br/>
+You can easyly add layers to network.<br/>
+You can save or load your trained network.<br/>
 
 
-Activation Functions
-Sigmoid
-ReLu
-Softmax
+Activation Functions<br/>
+Sigmoid<br/>
+ReLu<br/>
+Softmax<br/>
 
-Regularization
-L2
-Dropout (You can individually drop hidden layers)
+Regularization<br/>
+L2<br/>
+Dropout (You can individually drop hidden layers)<br/>
 
-Optimizers
-RMS
-Adam
+Optimizers<br/>
+RMS<br/>
+Adam<br/>
 
-Weight initilazition (Kernel Initializer)
-He
-Xavier
+Weight initilazition (Kernel Initializer)<br/>
+He<br/>
+Xavier<br/>
 (You can choose kernel for individual layers)
