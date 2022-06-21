@@ -2,7 +2,7 @@
  This is my implementation of neural network.
 
 Features<br/>
-You can easyly add layers to network.<br/>
+You can easily add layers to network.<br/>
 You can save or load your trained network.<br/>
 
 
@@ -20,7 +20,7 @@ Momentum<br/>
 RMS<br/>
 Adam<br/>
 
-Weight initilazition: (Kernel Initializer)<br/>
+Weight initialization: (Kernel Initializer)<br/>
 He<br/>
 Xavier<br/>
 (You can choose kernel for individual layers)
