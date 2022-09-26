@@ -28,7 +28,7 @@ Xavier<br/>
 
 <h1>Usage:</h1>
 
-Adding Layer:
+<h2>Adding Layer:</h2>
 
 node_count: Layers node count.<br/>
 activation: Activation function for this layer (Sigmoid, Relu, Softmax), you have to pass the function not the name.<br/>
@@ -39,7 +39,7 @@ kernel_initializer: Weight initialization (He, Xavier).<br/>
 add_layer(node_count, activation, input_len=0, kernel_initializer=None)
 ```
 
-Training:
+<h2>Training:</h2>
 
 alpha: Learning rate value for gradient descent<br/>
 iteration: How many times we want to train the network with all the training data<br/>
@@ -52,7 +52,7 @@ RMS_B: Beta value for RMS<br/>
 train(alpha, iteration, L2=0, dropout=0, optimizer=None, Momentum_B=0.9, RMS_B=0.999)
 ```
 
-Saving and loading weights:
+<h2>Saving and loading weights:</h2>
 
 file_name: Name for the file that we want to save out values<br/>
 ```python
@@ -61,7 +61,7 @@ save_network(file_name)
 load_network(file_name)
 ```
 
-Example Usage:
+<h2>Example Usage:</h2>
 
 ```python
 model = network()
