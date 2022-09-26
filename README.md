@@ -1,7 +1,7 @@
 # Neural-Network-Implementation
  This is my implementation of neural network.
 
-Features<br/>
+<h3>Features</h3>
 You can easily add layers to network.<br/>
 You can save or load your trained network.<br/>
 
