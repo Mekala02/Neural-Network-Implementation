@@ -6,21 +6,21 @@ You can easily add layers to network.<br/>
 You can save or load your trained network.<br/>
 
 
-<h3>Activation Functions:</h3>
+<h4>Activation Functions:</h4>
 Sigmoid<br/>
 ReLu<br/>
 Softmax<br/>
 
-<h3>Regularization:</h3>
+<h4>Regularization:</h4>
 L2<br/>
 Dropout (You can individually drop hidden layers)<br/>
 
-<h3>Optimizers:</h3>
+<h4>Optimizers:</h4>
 Momentum<br/>
 RMS<br/>
 Adam<br/>
 
-<h3>Weight initialization: (Kernel Initializer)</h3>
+<h4>Weight initialization: (Kernel Initializer)</h4>
 He<br/>
 Xavier<br/>
 (You can choose kernel for individual layers)
