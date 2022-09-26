@@ -35,9 +35,9 @@ add_layer(node_count, activation, input_len=0, kernel_initializer=None)
 ```
 
 <b>node_count:</b> Layers node count.<br/>
-activation: Activation function for this layer (Sigmoid, Relu, Softmax), you have to pass the function not the name.<br/>
-input_len: Input lenght for this layer (Only use for first layer because network automatickly fills it for other layers).<br/>
-kernel_initializer: Weight initialization (He, Xavier).<br/>
+<b>activation:</b> Activation function for this layer (Sigmoid, Relu, Softmax), you have to pass the function not the name.<br/>
+<b>input_len:</b> Input lenght for this layer (Only use for first layer because network automatickly fills it for other layers).<br/>
+<b>kernel_initializer:</b> Weight initialization (He, Xavier).<br/>
 
 
 
@@ -47,12 +47,12 @@ kernel_initializer: Weight initialization (He, Xavier).<br/>
 train(alpha, iteration, L2=0, dropout=0, optimizer=None, Momentum_B=0.9, RMS_B=0.999)
 ```
 
-alpha: Learning rate value for gradient descent<br/>
-iteration: How many times we want to train the network with all the training data<br/>
-L2: λ value for L2 regularization<br/>
-dropout: If you want to use dropout you have to pass list of dropout probabilities for all layers(Example: [0, 0.2, 0.2])<br/>
-Momentum_B: Beta value for momentum<br/>
-RMS_B: Beta value for RMS<br/>
+<b>alpha:</b> Learning rate value for gradient descent<br/>
+<b>iteration:</b> How many times we want to train the network with all the training data<br/>
+<b>L2:</b> λ value for L2 regularization<br/>
+<b>dropout:</b> If you want to use dropout you have to pass list of dropout probabilities for all layers(Example: [0, 0.2, 0.2])<br/>
+<b>Momentum_B:</b> Beta value for momentum<br/>
+<b>RMS_B:</b> Beta value for RMS<br/>
 
 <h2>Saving and loading weights:</h2>
 
@@ -61,7 +61,7 @@ save_network(file_name)
 load_network(file_name)
 ```
 
-file_name: Name for the file that we want to save out values<br/>
+<b>file_name:</b> Name for the file that we want to save out values<br/>
 
 
 <h2>Example Usage:</h2>
