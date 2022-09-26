@@ -25,6 +25,9 @@ He<br/>
 Xavier<br/>
 (You can choose kernel for individual layers)
 
+
+<h1>Usage:</h1>
+
 Adding Layer:
 
 node_count: Layers node count.<br/>
