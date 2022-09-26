@@ -25,11 +25,11 @@ He<br/>
 Xavier<br/>
 (You can choose kernel for individual layers)
 
-Adding Layer:
-node_count: Layers node count.
-activation: Activation function for this layer (Sigmoid, Relu, Softmax), you have to pass the function not the name.
-input_len: Input lenght for this layer (Only use for first layer because network automatickly fills it for other layers).
-kernel_initializer: Weight initialization (He, Xavier).
+Adding Layer:<br/>
+node_count: Layers node count.<br/>
+activation: Activation function for this layer (Sigmoid, Relu, Softmax), you have to pass the function not the name.<br/>
+input_len: Input lenght for this layer (Only use for first layer because network automatickly fills it for other layers).<br/>
+kernel_initializer: Weight initialization (He, Xavier).<br/>
 
 ```python
 add_layer(node_count, activation, input_len=0, kernel_initializer=None)
