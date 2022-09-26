@@ -36,26 +36,26 @@ add_layer(node_count, activation, input_len=0, kernel_initializer=None)
 ```
 
 Training:
-alpha: Learning rate value for gradient descent
-iteration: How many times we want to train the network with all the training data
-L2: λ value for L2 regularization
-dropout: If you want to use dropout you have to pass list of dropout probabilities for all layers(Example: [0, 0.2, 0.2])
-Momentum_B: Beta value for momentum
-RMS_B: Beta value for RMS
+alpha: Learning rate value for gradient descent<br/>
+iteration: How many times we want to train the network with all the training data<br/>
+L2: λ value for L2 regularization<br/>
+dropout: If you want to use dropout you have to pass list of dropout probabilities for all layers(Example: [0, 0.2, 0.2])<br/>
+Momentum_B: Beta value for momentum<br/>
+RMS_B: Beta value for RMS<br/>
 
 ```python
 train(alpha, iteration, L2=0, dropout=0, optimizer=None, Momentum_B=0.9, RMS_B=0.999)
 ```
 
-Saving and loading weights:
-file_name: Name for the file that we want to save out values
+Saving and loading weights:<br/>
+file_name: Name for the file that we want to save out values<br/>
 ```python
 save_network(file_name)
 
 load_network(file_name)
 ```
 
-Example Usage:
+Example Usage:<br/>
 ```python
 model = network()
 model.add_layer(120, model.ReLu, input_len=81, kernel_initializer="He")
