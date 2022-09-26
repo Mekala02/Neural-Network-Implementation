@@ -11,14 +11,17 @@ Sigmoid<br/>
 ReLu<br/>
 Softmax<br/>
 
+
 <h4>Regularization:</h4>
 L2<br/>
 Dropout (You can individually drop hidden layers)<br/>
+
 
 <h4>Optimizers:</h4>
 Momentum<br/>
 RMS<br/>
 Adam<br/>
+
 
 <h4>Weight initialization: (Kernel Initializer)</h4>
 He<br/>
